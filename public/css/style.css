@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'blox2';
+    src : url('../font/blox/blox2blox.eot');
+    src : url('../font/blox/blox2blox.woff') format(woff);
+}
+
+* {
+    margin: 0 auto;
+    font-family: opentype;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+#contains {
+    width: 960px;
+}
+
+#contains h1 {
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+    font-family: 'blox2', Georgia, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+
+#thisPlayerId {
+}
+
+#stage {
+    -moz-box-shadow: 0px 0px 25px #000000;
+    -webkit-box-shadow: 0px 0px 25px #000000;
+    box-shadow: 0px 0px 25px #000000;
+    margin-top: 20px;
+}
+
+
+#scoreTable {
+    float: right;
+    margin-top: 20px;
+    width: 45%;
+}
+
+#scoreTable table {
+    border-collapse:collapse;
+}
+
+#scoreTable table th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#scoreTable table td {
+    text-align:center;
+}
