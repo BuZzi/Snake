@@ -1,4 +1,4 @@
-## Multiplayer Snake experiment based on Node-JS, Socket IO and Express
+## Multiplayer Snake experiment based on NodeJS, Express & Socket.io.
 
 
 Install : <code>npm install -d</code>
